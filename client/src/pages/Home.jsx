@@ -5,7 +5,8 @@ import ShopBy from "../components/ShopBy";
 import GenInfo, { Brands, brandsData } from "../components/GenInfo";
 
 const Home = () => {
-    const navigate = useNavigate();
+  const navigate = useNavigate();
+
   return (
     <div className="max-w-screen-xl xs:w-[95vw] xs:max-w-[95vw] md:w-full mx-auto ">
       <Carousel />
@@ -13,7 +14,30 @@ const Home = () => {
       <Brands />
       <div className="md:w-full md:max-w-full xs:mx-2  sm:mx-auto ">
         <div className="prose prose-2xl">
-          <ShopBy title="Best Sellers" filter="bestSellers" />          <div className="flex flex-wrap justify-center mt-4 mb-10">            {brandsData.map((elem, id) => (              <div key={id} className="relative w-[340px] h-[340px] mx-2 mb-6 hover:text-white">                <div className="absolute w-full flex justify-center items-center top-4">                  <p className="logo font-semibold z-50">{elem.name}</p>                </div>                <img src={elem.src} alt={elem.name} className="w-full h-full object-cover" />                <button onClick={() => navigate(elem.to)} className="absolute inset-0 flex items-center justify-center bg-gray-800 text-white opacity-0 hover:opacity-80 transition-opacity duration-200">                  Explore →                </button>              </div>            ))}          </div>          <div className="flex flex-wrap justify-center mt-4 mb-10">            {brandsData.map((elem, id) => (              <div key={id} className="relative w-[340px] h-[340px] mx-2 mb-6 hover:text-white">                <div className="absolute w-full flex justify-center items-center top-4">                  <p className="logo font-semibold z-50">{elem.name}</p>                </div>                <img src={elem.src} alt={elem.name} className="w-full h-full object-cover" />                <button onClick={() => navigate(elem.to)} className="absolute inset-0 flex items-center justify-center bg-gray-800 text-white opacity-0 hover:opacity-80 transition-opacity duration-200">                  Explore →                </button>              </div>            ))}          <div className="flex flex-wrap justify-center mt-4 mb-10">            {brandsData.map((elem, id) => (              <div key={id} className="relative w-[340px] h-[340px] mx-2 mb-6 hover:text-white">                <div className="absolute w-full flex justify-center items-center top-4">                  <p className="logo font-semibold z-50">{elem.name}</p>                </div>                <img src={elem.src} alt={elem.name} className="w-full h-full object-cover" />                <button onClick={() => navigate(elem.to)} className="absolute inset-0 flex items-center justify-center bg-gray-800 text-white opacity-0 hover:opacity-80 transition-opacity duration-200">                  Explore →                </button>              </div>          <div className="flex flex-wrap justify-center mt-4 mb-10">            {brandsData.map((elem, id) => (              <div key={id} className="relative w-[340px] h-[340px] mx-2 mb-6 hover:text-white">                <div className="absolute w-full flex justify-center items-center top-4">                  <p className="logo font-semibold z-50">{elem.name}</p>                </div>                <img src={elem.src} alt={elem.name} className="w-full h-full object-cover" />                <button onClick={() => navigate(elem.to)} className="absolute inset-0 flex items-center justify-center bg-gray-800 text-white opacity-0 hover:opacity-80 transition-opacity duration-200">                  Explore →                </button>          <div className="flex flex-wrap justify-center mt-4 mb-10">            {brandsData.map((elem, id) => (              <div key={id} className="relative w-[340px] h-[340px] mx-2 mb-6 hover:text-white">                <div className="absolute w-full flex justify-center items-center top-4">                  <p className="logo font-semibold z-50">{elem.name}</p>                </div>                <img src={elem.src} alt={elem.name} className="w-full h-full object-cover" />                <button onClick={() => navigate(elem.to)} className="absolute inset-0 flex items-center justify-center bg-gray-800 text-white opacity-0 hover:opacity-80 transition-opacity duration-200">                  Explore →          <div className="flex flex-wrap justify-center mt-4 mb-10">            {brandsData.map((elem, id) => (              <div key={id} className="relative w-[340px] h-[340px] mx-2 mb-6 hover:text-white">                <div className="absolute w-full flex justify-center items-center top-4">                  <p className="logo font-semibold z-50">{elem.name}</p>                </div>                <img src={elem.src} alt={elem.name} className="w-full h-full object-cover" />                <button onClick={() => navigate(elem.to)} className="absolute inset-0 flex items-center justify-center bg-gray-800 text-white opacity-0 hover:opacity-80 transition-opacity duration-200">          <div className="flex flex-wrap justify-center mt-4 mb-10">            {brandsData.map((elem, id) => (              <div key={id} className="relative w-[340px] h-[340px] mx-2 mb-6 hover:text-white">                <div className="absolute w-full flex justify-center items-center top-4">                  <p className="logo font-semibold z-50">{elem.name}</p>                </div>                <img src={elem.src} alt={elem.name} className="w-full h-full object-cover" />          <div className="flex flex-wrap justify-center mt-4 mb-10">            {brandsData.map((elem, id) => (              <div key={id} className="relative w-[340px] h-[340px] mx-2 mb-6 hover:text-white">                <div className="absolute w-full flex justify-center items-center top-4">                  <p className="logo font-semibold z-50">{elem.name}</p>                </div>          <div className="flex flex-wrap justify-center mt-4 mb-10">            {brandsData.map((elem, id) => (              <div key={id} className="relative w-[340px] h-[340px] mx-2 mb-6 hover:text-white">                <div className="absolute w-full flex justify-center items-center top-4">                  <p className="logo font-semibold z-50">{elem.name}</p>          <div className="flex flex-wrap justify-center mt-4 mb-10">            {brandsData.map((elem, id) => (              <div key={id} className="relative w-[340px] h-[340px] mx-2 mb-6 hover:text-white">                <div className="absolute w-full flex justify-center items-center top-4">          <div className="flex flex-wrap justify-center mt-4 mb-10">            {brandsData.map((elem, id) => (              <div key={id} className="relative w-[340px] h-[340px] mx-2 mb-6 hover:text-white">          <div className="flex flex-wrap justify-center mt-4 mb-10">            {brandsData.map((elem, id) => (          <div className="flex flex-wrap justify-center mt-4 mb-10">
+          <ShopBy title="Best Sellers" filter="bestSellers" />
+          <div className="flex flex-wrap justify-center mt-4 mb-10">
+            {brandsData.map((elem, id) => (
+              <div
+                key={id}
+                className="relative w-[340px] h-[340px] mx-2 mb-6 hover:text-white"
+              >
+                <div className="absolute w-full flex justify-center items-center top-4">
+                  <p className="logo font-semibold z-50">{elem.name}</p>
+                </div>
+                <img
+                  src={elem.src}
+                  alt={elem.name}
+                  className="w-full h-full object-cover"
+                />
+                <button
+                  onClick={() => navigate(elem.to)}
+                  className="absolute inset-0 flex items-center justify-center bg-gray-800 text-white opacity-0 hover:opacity-80 transition-opacity duration-200"
+                >
+                  Explore →
+                </button>
+              </div>
+            ))}
+          </div>
         </div>
         <div className="child:ring-white">
           <ShopBy title="Top Rated" filter="topRated" />
